@@ -23,6 +23,7 @@
 #include "code/2022/day_12.cpp"
 #include "code/2022/day_13.cpp"
 #include "code/2022/day_14.cpp"
+#include "code/2022/day_15.cpp"
 
 typedef void (*FnPtr)(const std::vector<std::string>&);
 std::map<std::string, FnPtr> run_map = {
@@ -40,6 +41,7 @@ std::map<std::string, FnPtr> run_map = {
         {"2022_12", run_2022_12},
         {"2022_13", run_2022_13},
         {"2022_14", run_2022_14},
+        {"2022_15", run_2022_15},
 };
 
 
